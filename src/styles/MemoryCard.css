@@ -1,0 +1,19 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid
+}
+
+.card .name {
+    text-align: center;
+}
+
+.belly-symbol {
+    height: 2rem;
+}
+
+.bounty {
+    display: flex;
+    align-items: center;
+}
