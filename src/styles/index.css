@@ -1,5 +1,14 @@
+@font-face {
+  font-family: "Prescott";
+  src: url("../assets/fonts/Prescott_Regular.ttf");
+}
+
 :root {
   font-size: 62.5%;
+  --wanted-font: 'Prescott', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  --serif-font: Imbue, 'Times New Roman', Times, serif;
+  --bounty-font: 'Walter Turncoat', Arial, Helvetica, sans-serif;
+  --poster-bkg: hsl(36, 74%, 68%);
 }
 
 body {
@@ -12,9 +21,16 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('../assets/media/wood-bkg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-/* 
-h3, h2, h1, p, strong {
+
+h3,
+h2,
+h1,
+p,
+strong {
   margin: 0;
-} */
+}

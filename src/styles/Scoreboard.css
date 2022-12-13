@@ -1,4 +1,15 @@
 #scoreboard {
+    margin: 1rem;
     display: flex;
-    gap: 20px
+    gap: 20px;
+    font-family: var(--serif-font);
+    font-size: 4rem;
+    font-weight: 800;
+    color: white;
+    text-shadow: 3px 2px 2px black;
+
+}
+
+#scoreboard p {
+    font-weight: 400;
 }

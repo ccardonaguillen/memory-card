@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { sample, select } from 'underscore';
+import { sample } from 'underscore';
 import { pirates } from '../index';
 import Scoreboard from './Scoreboard';
 import MemoryCard from './MemoryCard';
@@ -33,15 +33,15 @@ function App() {
     return (
         <div id="App">
             <div id="hero">
-                <img src={logo} alt="One Piece" id="title-logo" />
-                <h2 id="subtitle">(Most) Wanted (bounty poster style font)</h2>
+                <img src={logo} alt="One Piece" id="logo" />
+                <h2 id="subtitle">WANTED</h2>
                 <p>
                     Can you track down all the members of the <strong>Worst Generation</strong> and
                     report them to the marines?
                     <br />
-                    But be careful: they are already suspicious and the will run away and hide if
-                    they become aware of your presence, so
-                    <strong> do NOT choose the same one twice</strong>.
+                    But be careful: they are already suspicious and will run away if they become
+                    aware of your presence, so&nbsp;
+                    <strong>do NOT choose the same one twice</strong>.
                 </p>
             </div>
 

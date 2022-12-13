@@ -1,14 +1,43 @@
 #App {
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    padding: 3rem;
     width: 100%;
+}
+
+#logo {
+    height: 18rem;
+}
+
+#subtitle {
+    margin-top: -2rem;
+    margin-bottom: 1rem;
+    font-family: var(--wanted-font);
+    font-size: 8rem;
+    font-weight: 300;
+    letter-spacing: 0.2rem;
+}
+
+#hero>p {
+    font-family: var(--serif-font);
+    font-size: 2.2rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    text-shadow: 2px 1px 2px black;
+    color: white;
+
+}
+
+#hero strong {
+    text-decoration: underline;
 }
 
 #cards-container {
     display: grid;
     grid-template-rows: 1fr 1fr;
-    grid-template-columns: repeat(5, 200px);
+    grid-template-columns: repeat(5, min(250px, 16vw));
     gap: 20px
 }
