@@ -1,0 +1,27 @@
+#credits {
+    display: flex;
+    margin-top: 2rem;
+}
+
+#credits a,
+#credits p {
+    color: white;
+    font-weight: 600;
+    font-size: 1.5rem;
+    letter-spacing: 0.03rem;
+    font-family: var(--serif-font);
+    text-shadow: 1px 1px 2px black;
+}
+
+#credits>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#github-logo {
+    margin-left: 0.5rem;
+    height: 3.6rem;
+    width: 3.6rem;
+    filter: drop-shadow(1px 1px 2px black);
+}

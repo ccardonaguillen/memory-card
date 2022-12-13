@@ -3,6 +3,7 @@ import { sample } from 'underscore';
 import { pirates } from '../index';
 import Scoreboard from './Scoreboard';
 import MemoryCard from './MemoryCard';
+import Credits from './Credits';
 import '../styles/App.css';
 import logo from '../assets/media/logo.svg';
 
@@ -51,6 +52,7 @@ function App() {
                     <MemoryCard key={idx} pirate={pirate} select={selectCard} />
                 ))}
             </div>
+            <Credits project="memory-card" />
         </div>
     );
 }
